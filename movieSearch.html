@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Movie Search">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="Hema Marimuthu">
+        <title>Movie Search</title>
+        <script src="jquery-3.1.0.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="movieSearch.css">
+    </head>
+    <div class="wrapper">
+        <div class="header">
+            <img src="searchimage.jpg" alt="magnifyingGlassPic" id="searchimg" width="40" height="40"><span class="title">Movie Search</span>
+        </div>
+        <div class="row">
+            <p class="col-7"><textarea autofocus="on" id="movieName" placeholder="Enter movie name"></textarea></p>
+            <p class="col-5"><button type="button" id="searchMovie"  title="click to check the results">Search</button></p>
+        </div>
+        <div id="results"></div> 
+    </div>
+    <div class="footer">
+            <div class="wrapper pad">Copyright (c) <a href="http://www.etouch.net/" target="_blank">ETouch 2016</a></div>
+    </div>
+    <script src="movieSearch.js"></script>        
+</html>
